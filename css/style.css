@@ -73,9 +73,9 @@
         justify-content: center;
       }
        .switcher .fa-sun{
-        animation: animate 2s infinite;
+        animation: rotate 2s infinite;
       }
-        @keyframes animate{
+        @keyframes rotate{
          from{
           transform: rotate(0deg);
          }
@@ -127,7 +127,9 @@
         border: 2px solid #1976d2;
         box-shadow: 0 0 5px rgba(0,0,0,0.5);
       }
-  
+  /* ignore this
+     just testing media query
+  */
       @media only screen   
 and (min-device-width : 1200px)   
 and (max-device-width : 1600px)
