@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Word Counter || HTML CSS JS</title>
+    <style type="text/css">
+    
+  
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      
+      <header>
+        <h2>Word Count</h2>
+        <div class="switcher">
+          <i class="fas fa-moon"></i>
+        </div>
+      </header>
+    
+      <!-- count Box -->
+      <div class="counter">
+        <div>
+          <span>Words</span>
+          <p id="word">0</p>
+        </div>
+        
+        <div>
+          <span>Characters</span>
+          <p id="character">0</p>
+        </div>
+      </div>
+      <!-- text field -->
+      <div class="text-input-area">
+        <textarea placeholder="Write your text here..." id="text-input"></textarea>
+      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js">
+      
+    </script>
+    <script src="script/script.js" type="text/javascript" charset="utf-8">
+    </script>
+    
+    <script type="text/javascript" charset="utf-8">
+      let themeSwitcher = document.querySelector(".switcher i");
+       
+      
+      themeSwitcher.onclick = () => {
+        themeSwitcher.classList.toggle("fa-sun");
+        
+        if (themeSwitcher.classList.contains("fa-sun")) {
+          document.body.classList.add("dark");
+        }else
+          document.body.classList.remove("dark");
+        
+      };
+      
+      var alert = swal({
+  
+  title: "Follow Me On Github!",
+  text: "Created By Austin 💞💞",
+  icon: "success",
+  button: "Ok",
+})
+    </script>
+  </body>
+</html>
