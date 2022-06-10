@@ -72,7 +72,17 @@
         align-items: center;
         justify-content: center;
       }
-       
+       .switcher .fa-sun{
+        animation: animate 2s infinite;
+      }
+        @keyframes animate{
+         from{
+          transform: rotate(0deg);
+         }
+         to{
+          transform: rotate(360deg);
+         }
+      }
       .container .counter{
         width: 100%;
         height: 20%;
