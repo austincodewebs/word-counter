@@ -5,4 +5,4 @@ A simple word counter with dark mode feature.
 
 
 # Demo
-
+View live demo [Here](https://austincodewebs.github.io/word-counter/)
