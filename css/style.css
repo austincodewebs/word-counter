@@ -73,7 +73,7 @@
         justify-content: center;
       }
        .switcher .fa-sun{
-        animation: rotate 2s forwards;
+        animation: rotate 2s infinite;
       }
         @keyframes rotate{
          from{
